@@ -58,7 +58,11 @@ class Merging:
                         "dataset/15_min_steps_data/AfiAct2_Steps and Activity_15 minutes data_20211001-20211030.xlsx"]
 
     merged_df = merge_min_data(fifteen_min_data, genome_id)
-    merged_df.to_csv("merged.csv")
+    merged_df["key"] = 0
+    for i in range(len(merged_df)):
+        merged_df.key[i] = str(merged_df.AnimalID[i]) + "#" + str(merged_df.dt[i].date()) + "#" + str(merged_df.dt[i].hour)
+
+    merged_df.to_csv("merge_complete.csv")
 
     cows_id = merged_df.drop_duplicates(subset = ["AnimalID"]).AnimalID.tolist()
     print("Count cows")
