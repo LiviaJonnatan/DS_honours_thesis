@@ -15,8 +15,8 @@ perform.loc[perform['diff'] == (-7), 'group'] = "FN"
 perform.loc[perform['diff'] == (-10), 'group'] = "FP"
 perform.loc[perform['diff'] == (-8), 'group'] = "TN"
 
-print("Saving performance df")
-perform.to_csv("perform_result.csv", index=False)
+#print("Saving performance df")
+#perform.to_csv("perform_result.csv", index=False)
 
 print(perform.groupby(by="group").count())
 
@@ -25,15 +25,15 @@ FP_count = perform[perform["group"] == 'FP'].shape[0]
 FN_count = perform[perform["group"] == 'FN'].shape[0]
 TN_count = perform[perform["group"] == 'TN'].shape[0]
 
-print("Calculating accuracy")
+#print("Calculating accuracy")
 accu = ((TP_count + TN_count) / (TP_count + TN_count + FP_count + FN_count)) * 100
-print("Calculating specificity")
+#print("Calculating specificity")
 spec = (TN_count / (TN_count + FP_count)) * 100
-print("Calculating precision")
+#print("Calculating precision")
 prec = (TP_count / (TP_count + FP_count)) * 100
-print("Calculating recall")
+#print("Calculating recall")
 recall = (TP_count / (TP_count + FN_count)) * 100
-print("Calculating F1")
+#print("Calculating F1")
 f1 = (2 * prec * recall / (prec + recall)) * 100
 
 print("Accuracy: ", accu, "%")
