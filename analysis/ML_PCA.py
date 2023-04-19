@@ -11,7 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 from sklearn.metrics import classification_report, accuracy_score
 print("# loading imblearn")
@@ -76,15 +76,15 @@ print(classification_report(y_true=y_test,
                             target_names=["Not estrus", "Estrus"]))
 
 
-print("---MULTINOMIAL NAIVE BAYES---")
-# initialize the Multinomial Naive Bayes classifier
-mnb = MultinomialNB()
+print("---GAUSSIAN NAIVE BAYES---")
+# initialize the Gaussian Naive Bayes classifier
+gnb = GaussianNB()
 # train the classifier using the training data
-mnb.fit(os_data_X, os_data_y.values)
+gnb.fit(os_data_X, os_data_y.values)
 # make predictions on the testing data
-mnb_y_pred = mnb.predict(X_test)
-print(classification_report(y_true=y_test, 
-                            y_pred=mnb_y_pred,
+gnb_y_pred = gnb.predict(X_test)
+print(classification_report(y_true=y_test,
+                            y_pred=gnb_y_pred,
                             target_names=["Not estrus", "Estrus"]))
 
 
@@ -211,15 +211,15 @@ print(classification_report(y_true=y_test,
                             target_names=["Not estrus", "Estrus"]))
 
 
-print("---MULTINOMIAL NAIVE BAYES---")
-# initialize the Multinomial Naive Bayes classifier
-mnb = MultinomialNB()
+print("---GAUSSIAN NAIVE BAYES---")
+# initialize the Gaussian Naive Bayes classifier
+gnb = GaussianNB()
 # train the classifier using the training data
-mnb.fit(os_data_X, os_data_y.values)
+gnb.fit(os_data_X, os_data_y.values)
 # make predictions on the testing data
-mnb_y_pred = mnb.predict(X_test)
-print(classification_report(y_true=y_test, 
-                            y_pred=mnb_y_pred,
+gnb_y_pred = gnb.predict(X_test)
+print(classification_report(y_true=y_test,
+                            y_pred=gnb_y_pred,
                             target_names=["Not estrus", "Estrus"]))
 
 
