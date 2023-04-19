@@ -1,0 +1,296 @@
+# loading pandas, numpy, and matplotlib
+# loading sklearn
+# loading imblearn
+Done importing libraries
+Reading genome csv file
+Done reading
+USING BOVINE MEAN STEP DIFFERENCE OVER ALL COWS:
+MEAN STEP DIFFERENCE (30MIN.):
+---BALANCING DATA---
+Length of oversampled data is  8473946
+Number of not estrus in oversampled data 4236973
+Number of estrus 4236973
+Proportion of not estrus data in oversampled data is  0.5
+Proportion of estrus data in oversampled data is  0.5
+---CLASSIFICATION TREE---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.51      0.68   2824698
+      Estrus       0.01      0.52      0.01     19821
+
+    accuracy                           0.51   2844519
+   macro avg       0.50      0.52      0.35   2844519
+weighted avg       0.99      0.51      0.67   2844519
+
+---KNN---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.75      0.85   2824698
+      Estrus       0.01      0.27      0.01     19821
+
+    accuracy                           0.75   2844519
+   macro avg       0.50      0.51      0.43   2844519
+weighted avg       0.99      0.75      0.85   2844519
+
+---LOGISTIC REGRESSION---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.40      0.57   2824698
+      Estrus       0.01      0.61      0.01     19821
+
+    accuracy                           0.40   2844519
+   macro avg       0.50      0.50      0.29   2844519
+weighted avg       0.99      0.40      0.56   2844519
+
+---LDA---
+LDA score:  0.5052320371061946
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.40      0.57   2824698
+      Estrus       0.01      0.61      0.01     19821
+
+    accuracy                           0.40   2844519
+   macro avg       0.50      0.50      0.29   2844519
+weighted avg       0.99      0.40      0.56   2844519
+
+MEAN STEP DIFFERENCE (1HR):
+---BALANCING DATA---
+Length of oversampled data is  8473946
+Number of not estrus in oversampled data 4236973
+Number of estrus 4236973
+Proportion of not estrus data in oversampled data is  0.5
+Proportion of estrus data in oversampled data is  0.5
+---CLASSIFICATION TREE---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.51      0.68   2824698
+      Estrus       0.01      0.52      0.01     19821
+
+    accuracy                           0.51   2844519
+   macro avg       0.50      0.52      0.35   2844519
+weighted avg       0.99      0.51      0.67   2844519
+
+---KNN---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.66      0.79   2824698
+      Estrus       0.01      0.34      0.01     19821
+
+    accuracy                           0.66   2844519
+   macro avg       0.50      0.50      0.40   2844519
+weighted avg       0.99      0.66      0.79   2844519
+
+---LOGISTIC REGRESSION---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      1.00      1.00   2824698
+      Estrus       0.00      0.00      0.00     19821
+
+    accuracy                           0.99   2844519
+   macro avg       0.50      0.50      0.50   2844519
+weighted avg       0.99      0.99      0.99   2844519
+
+---LDA---
+LDA score:  0.5080906817428831
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.40      0.57   2824698
+      Estrus       0.01      0.61      0.01     19821
+
+    accuracy                           0.40   2844519
+   macro avg       0.50      0.50      0.29   2844519
+weighted avg       0.99      0.40      0.56   2844519
+
+MEAN STEP DIFFERENCE (1.5HR):
+---BALANCING DATA---
+Length of oversampled data is  8473946
+Number of not estrus in oversampled data 4236973
+Number of estrus 4236973
+Proportion of not estrus data in oversampled data is  0.5
+Proportion of estrus data in oversampled data is  0.5
+---CLASSIFICATION TREE---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.51      0.68   2824698
+      Estrus       0.01      0.52      0.01     19821
+
+    accuracy                           0.51   2844519
+   macro avg       0.50      0.52      0.35   2844519
+weighted avg       0.99      0.51      0.67   2844519
+
+---KNN---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.83      0.91   2824698
+      Estrus       0.01      0.16      0.01     19821
+
+    accuracy                           0.83   2844519
+   macro avg       0.50      0.50      0.46   2844519
+weighted avg       0.99      0.83      0.90   2844519
+
+---LOGISTIC REGRESSION---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      1.00      1.00   2824698
+      Estrus       0.00      0.00      0.00     19821
+
+    accuracy                           0.99   2844519
+   macro avg       0.50      0.50      0.50   2844519
+weighted avg       0.99      0.99      0.99   2844519
+
+---LDA---
+LDA score:  0.5078757877306239
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.36      0.52   2824698
+      Estrus       0.01      0.65      0.01     19821
+
+    accuracy                           0.36   2844519
+   macro avg       0.50      0.50      0.27   2844519
+weighted avg       0.99      0.36      0.52   2844519
+
+MEAN STEP DIFFERENCE (3HR):
+---BALANCING DATA---
+Length of oversampled data is  8473946
+Number of not estrus in oversampled data 4236973
+Number of estrus 4236973
+Proportion of not estrus data in oversampled data is  0.5
+Proportion of estrus data in oversampled data is  0.5
+---CLASSIFICATION TREE---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.51      0.68   2824698
+      Estrus       0.01      0.52      0.01     19821
+
+    accuracy                           0.51   2844519
+   macro avg       0.50      0.52      0.35   2844519
+weighted avg       0.99      0.51      0.67   2844519
+
+---KNN---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.83      0.90   2824698
+      Estrus       0.01      0.17      0.01     19821
+
+    accuracy                           0.82   2844519
+   macro avg       0.50      0.50      0.46   2844519
+weighted avg       0.99      0.82      0.90   2844519
+
+---LOGISTIC REGRESSION---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      1.00      1.00   2824698
+      Estrus       0.00      0.00      0.00     19821
+
+    accuracy                           0.99   2844519
+   macro avg       0.50      0.50      0.50   2844519
+weighted avg       0.99      0.99      0.99   2844519
+
+---LDA---
+LDA score:  0.509018112751119
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.39      0.56   2824698
+      Estrus       0.01      0.62      0.01     19821
+
+    accuracy                           0.39   2844519
+   macro avg       0.50      0.51      0.29   2844519
+weighted avg       0.99      0.39      0.56   2844519
+
+MEAN STEP DIFFERENCE (6HR):
+---BALANCING DATA---
+Length of oversampled data is  8473946
+Number of not estrus in oversampled data 4236973
+Number of estrus 4236973
+Proportion of not estrus data in oversampled data is  0.5
+Proportion of estrus data in oversampled data is  0.5
+---CLASSIFICATION TREE---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.51      0.68   2824698
+      Estrus       0.01      0.52      0.01     19821
+
+    accuracy                           0.51   2844519
+   macro avg       0.50      0.52      0.35   2844519
+weighted avg       0.99      0.51      0.67   2844519
+
+---KNN---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.67      0.80   2824698
+      Estrus       0.01      0.32      0.01     19821
+
+    accuracy                           0.67   2844519
+   macro avg       0.50      0.50      0.41   2844519
+weighted avg       0.99      0.67      0.80   2844519
+
+---LOGISTIC REGRESSION---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      1.00      1.00   2824698
+      Estrus       0.00      0.00      0.00     19821
+
+    accuracy                           0.99   2844519
+   macro avg       0.50      0.50      0.50   2844519
+weighted avg       0.99      0.99      0.99   2844519
+
+---LDA---
+LDA score:  0.5040239813499496
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.51      0.67   2824698
+      Estrus       0.01      0.50      0.01     19821
+
+    accuracy                           0.51   2844519
+   macro avg       0.50      0.50      0.34   2844519
+weighted avg       0.99      0.51      0.67   2844519
+
+MEAN STEP DIFFERENCE (12HR):
+---BALANCING DATA---
+Length of oversampled data is  8473946
+Number of not estrus in oversampled data 4236973
+Number of estrus 4236973
+Proportion of not estrus data in oversampled data is  0.5
+Proportion of estrus data in oversampled data is  0.5
+---CLASSIFICATION TREE---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.51      0.68   2824698
+      Estrus       0.01      0.52      0.01     19821
+
+    accuracy                           0.51   2844519
+   macro avg       0.50      0.52      0.35   2844519
+weighted avg       0.99      0.51      0.67   2844519
+
+---KNN---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.84      0.91   2824698
+      Estrus       0.01      0.16      0.01     19821
+
+    accuracy                           0.83   2844519
+   macro avg       0.50      0.50      0.46   2844519
+weighted avg       0.99      0.83      0.90   2844519
+
+---LOGISTIC REGRESSION---
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      1.00      1.00   2824698
+      Estrus       0.00      0.00      0.00     19821
+
+    accuracy                           0.99   2844519
+   macro avg       0.50      0.50      0.50   2844519
+weighted avg       0.99      0.99      0.99   2844519
+
+---LDA---
+LDA score:  0.5103446494235666
+              precision    recall  f1-score   support
+
+  Not estrus       0.99      0.55      0.71   2824698
+      Estrus       0.01      0.48      0.01     19821
+
+    accuracy                           0.55   2844519
+   macro avg       0.50      0.51      0.36   2844519
+weighted avg       0.99      0.55      0.70   2844519
+
+Done:)
