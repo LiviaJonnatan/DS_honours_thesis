@@ -18,10 +18,21 @@ This directory has Python scripts to:
 
 P.S. "genome" and "sensor" are used interchangably, but refer to the same thing (sensor data)
 
-## Set up and flow:
-Run all Python scripts (.py) in Terminal by using this command: `python3 filename.py`
+## Set up
+Python libraries that must be installed:
+- pandas
+- numpy
+- datetime
+- matplotlib
+- scikit-learn
 
-For .ipnyb file, open it using Jupyter Notebook
+Install in Terminal by using `pip3 install requirements.txt`.
+
+Run all Python scripts (.py) in Terminal by using this command: `python3 filename.py`.
+
+For .ipnyb file, open it using Jupyter Notebook.
+
+## Flow
 1. Run `cleaning_genome_data.py` -> return `cleaned_genome_data.csv`
 2. Run `merging.py` -> return `merge_complete.csv`
 3. Run `labelling_R.py` -> return CSV files for individual cow (`r_label_(animalID).csv`)
