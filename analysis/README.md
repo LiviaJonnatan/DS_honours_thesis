@@ -2,10 +2,10 @@
 This directory has Python scripts to:
 - data cleaning
 - data merging
-  ([complete and merged data](https://ubcca-my.sharepoint.com/:x:/r/personal/liviatan_student_ubc_ca/Documents/merge_complete.csv?d=w19032f73e111411baf81ac6281ed3843&csf=1&web=1&e=z55Ncu))
-- data labelling (result based on [sensor data](https://ubcca-my.sharepoint.com/:x:/g/personal/liviatan_student_ubc_ca/ER3XiFe8OiBPn4_YUbjysbAB-19A9NphYET1pkUPWEMOew?e=wLfmLx) and [R algorithm](https://ubcca-my.sharepoint.com/:x:/g/personal/liviatan_student_ubc_ca/Eab4dZyuRPNCs3BtAm0j3IIBQ-nzSAqkjhBbSLbOQS4sHg?e=zRMXRl))
+  ([complete and merged data](https://ubcca-my.sharepoint.com/:x:/g/personal/ramon_lawrence_ubc_ca/EVlzmtK_lwxDu2eAxZYz7m8BcYvZOeW8XBjcVKqUKDy0ig?e=6mmpRd))
+- data labelling (result based on [sensor data](https://ubcca-my.sharepoint.com/:x:/g/personal/ramon_lawrence_ubc_ca/ET_fUww-dZFOhhGSWkj6j8EBhy0SnBYNT3FfkQEPO8Q0cg?e=85pcqo) and [R algorithm](https://ubcca-my.sharepoint.com/:x:/g/personal/ramon_lawrence_ubc_ca/ET66Wrn7qEVMv1cWQJev0UsByvyBp9ktxXFyCaiuQRK9Ig?e=UxSioL)
 - compare result from previouly existing R algorithm and sensor data
-- calculate step difference ([final CSV file](https://ubcca-my.sharepoint.com/:x:/g/personal/liviatan_student_ubc_ca/ET56VKP9zcZJnKnVvemlPNwBOYngR4W8X9PkyqLg22MQMA?e=rx1USi) for machine learning)
+- calculate step difference ([final CSV file](https://ubcca-my.sharepoint.com/:x:/g/personal/ramon_lawrence_ubc_ca/ERiZ10VBu-dBifB2QkEx1W4BFJVrlMUV-xKKRLRliMv6zg?e=5Qjnc1) for machine learning)
 - supervised machine learning
   - classification tree
   - naive Bayes
